@@ -85,10 +85,10 @@ declare module Jsonix {
         /**
          * Creates an instance of Context.
          *
-         * @param {any[]} s (description)
-         * @param {ContextOptions} options (description)
+         * @param {any[]} mappings Array of mapping modules that define XML/JSON schema definitions
+         * @param {ContextOptions} options Optional configuration options
          */
-        constructor(s:any[], options?:ContextOptions);
+        constructor(mappings:any[], options?:ContextOptions);
 
         /**
          * (description)
