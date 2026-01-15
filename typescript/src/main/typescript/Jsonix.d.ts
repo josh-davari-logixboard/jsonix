@@ -64,7 +64,7 @@ interface Marshaller { // TODO: generics like marshalString(object:T):string;
 }
 
 declare module Jsonix {
-  export interface ContextOptions {
+    export interface ContextOptions {
         /**
          * Maps namespace URIs to prefixes for XML serialization.
          */
@@ -79,9 +79,9 @@ declare module Jsonix {
          * Defaults to 'standard'.
          */
         mappingStyle?: 'standard' | 'simplified' | Object
-  }
+    }
 
-  export class Context {
+    export class Context {
         /**
          * Creates an instance of Context.
          *
